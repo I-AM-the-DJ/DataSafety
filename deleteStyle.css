@@ -1,0 +1,12 @@
+#deleteButton{
+    margin: 2%;
+    padding: 5%;
+    border-radius: 300px;
+    text-align: center;
+    font-size: larger;
+    cursor: pointer;
+    background-color: rgba(0, 0, 0, 0.3);
+}
+#deleteButton:hover{
+    background-color: rgba(122, 8, 8, 0.3);
+}
