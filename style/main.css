@@ -24,3 +24,13 @@ nav > a {
 nav > a:hover {
     text-decoration: underline;
 }
+
+.workInProgress {
+    --lr-margin: 30%;
+    padding: 1%;
+    margin-left: var(--lr-margin);
+    margin-right: var(--lr-margin);
+    text-align: center;
+    border-radius: 100px;
+    background-color: rgba(100, 0, 0, 0.2);
+}
