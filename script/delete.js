@@ -1,6 +1,6 @@
 document.addEventListener('DOMContentLoaded', function() {
-    const DELETE_BTN = document.getElementById("deleteButton");
-    DELETE_BTN.addEventListener("click", function(event) {
-        alert("You clicked the delete button!");
-    });
+    const FORM = document.getElementById("deleteForm");
+    FORM.addEventListener("submit", function(e) {
+        alert("Form submitted");
+    })
 });
