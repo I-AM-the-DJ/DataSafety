@@ -16,10 +16,17 @@ nav{
     border-radius: 100px;
     display: flex;
     justify-content: space-around;
+    flex-wrap: wrap;
 }
 nav > a {
     text-decoration: none;
     color: var(--main-Font-Color);
+    text-wrap: nowrap;
+    --lr-padding: 15px;
+    --ud-padding: 5px;
+    padding: var(--ud-padding) var(--lr-padding) var(--ud-padding) var(--lr-padding);
+    padding-left: var(--lr-padding);
+    padding-right: var(--lr-padding);
 }
 nav > a:hover {
     text-decoration: underline;
